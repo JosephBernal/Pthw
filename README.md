@@ -1,7 +1,7 @@
 # Pthw
 **Python The Hard Way**
 
-### Exercises
+## Exercises
 
 * Ex01_Print
 * Ex02_Comments
@@ -15,3 +15,36 @@
 * Ex10_What_Was_That
 * Ex11_Asking_Questions
 * Ex12_Prompting_People
+
+## CheatSheets
+
+### Escape Characters
+
+| Escape Character | Explanation |
+|:------------------:|:-------------:|
+| \\ | Backslash \
+|\' | Single-quote '
+| \" | Double-quote "
+| \a | ASCII bell BEL
+| \b | ASCII backspace BS
+| \f | ASCII formfeed FF
+| \n | ASCII linefeed LF
+| \N{name} | Character named name in the Unicode database (unicode only)
+| \r | Carriage return CR
+| \t | Horizontal tab TAB
+| \uxxxx | character with 16-bit hex value xxxx
+| \Uxxxxxxxx | Character with 32-bit hex value xxxxxxxx
+| \v | ASCII vertical tab VT
+| \ooo | Character with octal value ooo
+| \xhh | Character with hex value hh
+
+### CLI
+
+#### Pydocs
+
+python -m pydoc
+* input
+* open
+* file
+* os
+* sys
