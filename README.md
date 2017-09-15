@@ -10,7 +10,7 @@ Along with a whole bunch of branching and merging practice
 
 * [Ex01_Print](Exercises/Ex01_Print.py)
 * [Ex02_Comments](Exercises/Ex02_Comments.py)
-* [Ex03_Numbers_and_Math](Exercises/Ex02_Comments.py)
+* [Ex03_Numbers_and_Math](Exercises/Ex03_Numbers_and_Math.py)
 * [Ex04_Variables_and_Names](Exercises/Ex04_Variables_and_Names.py)
 * [Ex05_More_Variables_and_Printing](Exercises/Ex05_More_Variables_and_Printing.py)
 * [Ex06_Strings_and_Text](Exercises/Ex06_Strings_and_Text.py)
