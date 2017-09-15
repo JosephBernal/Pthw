@@ -43,8 +43,7 @@
 #### Pydocs
 
 python -m pydoc
-* input
-* open
-* file
-* os
+* [input](../Refs/Pydoc_input.md)
+* [open](../Refs/Pydoc_open.md)
+* [os](../Refs/Pydoc_os.md)
 * sys
