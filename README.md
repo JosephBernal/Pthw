@@ -46,4 +46,4 @@ python -m pydoc
 * [input](../Refs/Pydoc_input.md)
 * [open](../Refs/Pydoc_open.md)
 * [os](../Refs/Pydoc_os.md)
-* sys
+* [sys](../Refs/Pydocs_sys.md)
