@@ -1,5 +1,5 @@
 # Pthw
-<<<<<<< HEAD
+
 Python The Hard Way Exercises  and study material
 
 Along with a whole bunch of branching and merging practice
@@ -20,9 +20,7 @@ Along with a whole bunch of branching and merging practice
 * Ex10_What_Was_That
 * Ex11_Asking_Questions
 * Ex12_Prompting_People
-<<<<<<< HEAD
->>>>>>> Pthw.working
-=======
+
 
 ## CheatSheets
 
@@ -55,4 +53,3 @@ python -m pydoc
 * [open](../Refs/Pydoc_open.md)
 * [os](../Refs/Pydoc_os.md)
 * [sys](../Refs/Pydocs_sys.md)
->>>>>>> Pthw.working
