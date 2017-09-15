@@ -49,7 +49,7 @@ Along with a whole bunch of branching and merging practice
 #### Pydocs
 
 python -m pydoc
-* [input](../Refs/Pydoc_input.md)
-* [open](../Refs/Pydoc_open.md)
-* [os](../Refs/Pydoc_os.md)
-* [sys](../Refs/Pydocs_sys.md)
+* [input](Refs/Pydoc_input.md)
+* [open](Refs/Pydoc_open.md)
+* [os](Refs/Pydoc_os.md)
+* [sys](Refs/Pydocs_sys.md)
