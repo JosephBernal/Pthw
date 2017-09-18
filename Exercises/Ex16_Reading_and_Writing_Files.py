@@ -9,7 +9,7 @@ print("If you do want that, hit RETURN.")
 input("?")
 
 print("Opening the file...")
-target = open(filename, 'rw')
+target = open(filename, "r+")
 
 print("Truncating the file. Goodbye!")
 target.truncate()
@@ -32,6 +32,12 @@ target.write("\n")
 print("And finally, we close it.")
 target.close()
 
-print("Now we are going to open the file and read it.")
-target.open()
+print("Lets try and open this bad boy")
+
+target = open(filename)
+
+print("And read it.")
 print(target.read())
+
+print("For the piece de resistance")
+target.close()
