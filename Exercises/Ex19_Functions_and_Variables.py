@@ -1,3 +1,4 @@
+from sys import argv
 # This is the initial creation of the function where cheese_and_crackers is assigned two variables
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     # Here is where we output some strings
@@ -28,17 +29,60 @@ cheese_and_crackers(10 + 20, 5 + 6)
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
+# Function 1
 def winning(luck, perseverance):
     print(f"Winning is {luck} % luck and {perseverance} % perseverance. \n")
 
 winning(10, 90)
 
+# Function 2
 luck = 10
 perseverance = 100
 winning(luck, perseverance)
 
+# Function 3
 luck = perseverance - luck
 perseverance = perseverance + perseverance
 winning(luck, perseverance)
 
+# Function 4
 winning(amount_of_cheese * amount_of_crackers, luck)
+
+# Function 5
+prompt = "> "
+luck = input(prompt)
+perseverance = input(prompt)
+winning(luck, perseverance)
+
+# Function 6
+script, luck, perseverance = argv
+prompt = "> "
+luck = input(prompt)
+perseverance = input(prompt)
+winning(luck, perseverance)
+
+# Function 7
+Func_winning = "Winning is luck and perseverance. \n"
+def wining(luck, perseverance):
+    print(Func_winning)
+
+wining(luck, perseverance)
+
+# Function 8
+def luck():
+    print("Winning is luck")
+
+def perseverance():
+    print("Winning is Perseverance")
+
+def win():
+    luck()
+    perseverance()
+win()
+
+# Function 9
+def the_win(x):
+    print("Winning is " + x)
+the_win('luck')
+
+# Function 10
