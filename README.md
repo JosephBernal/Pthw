@@ -16,11 +16,21 @@
 * [Ex10_What_Was_That](Exercises/Ex10_What_Was_That.py)
 * [Ex11_Asking_Questions](Exercises/Ex11_Asking_Questions.py)
 * [Ex12_Prompting_People](Exercises/Ex12_Prompting_People.py)
+* [Ex13_Parameters_Unpacking_Variables.py](Exercises/Ex13_Parameters_Unpacking_Variables.py)
+* [Ex14_Prompting_and_passing.py](Exercises/Ex14_Prompting_and_passing.py)
+* [Ex15_Reading_FIles](Exercises/Ex15_Reading_FIles)
+* [Ex16_Reading_and_Writing_Files](Exercises/Ex16_Reading_and_Writing_Files)
+* [Ex17_More_Files](Exercises/Ex17_More_Files)
+* [Ex18_Names_Variables_Code_Functions.py](Exercises/Ex18_Names_Variables_Code_Functions.py)
+* [Ex19_Functions_and_Variables.py](Exercises/Ex19_Functions_and_Variables.py)
+* [Ex20_Functions_and_files](Exercises/Ex20_Functions_and_files)
+* [Ex21_Functions_Can_Return_Something.py](Exercises/Ex21_Functions_Can_Return_Something.py)
+* [Ex22_What_Do_You_Know_So_Far.md](Exercises/Ex22_What_Do_You_Know_So_Far.md)
 
 
 ## Ref Files
 
-Exercise 22 summarizes the previous 21 Exercises
+Exercise 22 is a good reference table summarizing the previous 21 exercises.
 
 python -m pydoc
 * [input](Refs/Pydoc_input.md)
