@@ -31,3 +31,5 @@ print("Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print("That becomes: ", what, "Can you do it by hand?")
+
+print(30 + 5 + 78 - 4 - 90 * 2 * 100 / 2 / 2)
