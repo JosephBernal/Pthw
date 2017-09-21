@@ -29,8 +29,8 @@ current_line = 1
 # The file is open, oneline is read and the whole function is printed
 print_a_line(current_line, current_file)
 # The above process happens again but 1 is just added
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 # The above process happens again and another 1 is added
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
