@@ -27,3 +27,19 @@ main(languages, encoding, error)
 # shaw runs python ex23.py utf-8 strict
 # what is LaTeX
 # codecs: utf-8, utf-16, big5
+
+# Symbol list
+#utf8
+# xc3\xa1 = á
+# xc5\xa0 = Š
+# xe2\x80\xba = >
+# xcb\x86 = ^
+# xc3\x90 = Ð
+# xc2\xb0 = °
+# xc3\x92 = Ò
+# xc3\x93 = Ó
+
+# Cheats for bin/codec conversion
+#0b1011010 == 90
+# ord('Z') == 90
+# chr(90) == 'Z'
