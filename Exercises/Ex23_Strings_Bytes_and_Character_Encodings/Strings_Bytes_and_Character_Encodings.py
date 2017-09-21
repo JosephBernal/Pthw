@@ -21,3 +21,9 @@ def print_line(line, encoding, errors):
 languages = open("languages.txt", encoding="utf-8")
 
 main(languages, encoding, error)
+
+# list of unfamiliar things
+# encoding, error, sys.argv, .strip, .encode, .decode
+# shaw runs python ex23.py utf-8 strict
+# what is LaTeX
+# codecs: utf-8, utf-16, big5
