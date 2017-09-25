@@ -15,7 +15,7 @@ print("-----------")
 print(poem)
 print("----------")
 
-five - 10 - 2 + 3 - 6
+five = 10 - 2 + 3 - 6
 print(f"This should be five: {five}")
 
 
