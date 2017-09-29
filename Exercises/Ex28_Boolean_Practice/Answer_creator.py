@@ -15,7 +15,7 @@ def main(in_txt, out_txt):
 
 def print_line(line, out_txt):
     next_line = line.strip()
-    out_txt.write(f'print("{next_line}: "{next_line}) \n')
+    out_txt.write(f"{next_line}: \n")
 
 
 
