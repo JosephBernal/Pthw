@@ -15,8 +15,8 @@ def main(in_txt, out_txt,):
 
 def print_line(in_txt, out_txt):
     next_line = line.strip()
-    
-    print(f'print("{next_line}")')
+
+    print(f'print("{next_line}: "{next_line})')
 
 
 
