@@ -26,9 +26,28 @@ elif door == "2":
 
     insanity = input("> ")
 
-    if insanity == "1" or insanity == "2":
+    if insanity == "1":
         print("Your body survives powered by a mind of jello.")
         print("Good job!")
+    elif insanity == "2":
+        print("You are struck with a lightning bolt of brilliance!")
+        print("You sore far into the sky.")
+        print("Upon reaching a city of cloud you are confronted by a guard.")
+        print("'You may only pass if you know the true answer.'")
+        print("How old am I?")
+
+        guess = input(" >")
+
+        if guess <= 100:
+            print("You are sent to a fiery abyss. You believe him to be but a baby?")
+        elif guess >= 100:
+            print("You have no concept of time young one.\n please leave and never return.")
+        elif guess == str:
+            print("That is correct there is no concept of numerals nor time here.")
+        else:
+            print("You may die now. Your time has come smart one.")
+            print("Good job!")
+
     else:
         print("The insanity rots your eyes into a pool of muck.")
         print("Good job!")
