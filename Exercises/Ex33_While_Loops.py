@@ -1,16 +1,20 @@
-i = 0
-numbers = []
 
-while i < 6:
-    print(f"At the top i is {i}")
-    numbers.append(i)
+def loop(end):
+    numbers = []
+    end = 6
 
-    i = i + 1
-    print("Numbers now: ", numbers)
-    print(f"At the bottom i is {i}")
+    for i in range(end):
+        print(f"At the top i is {i}")
+        numbers.append(i)
+
+        # i = i + increment
+        print("Numbers now: ", numbers)
+        print(f"At the bottom i is {i}")
+
+    print("The numbers: ")
+
+    for num in numbers:
+        print(num)
 
 
-print("The numbers: ")
-
-for num in numbers:
-    print(num)
+loop(6)
