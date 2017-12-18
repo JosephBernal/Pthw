@@ -1,6 +1,6 @@
-cough_med_amt = 10
-head_med_amt = 10
-tummy_med_amt = 10
+cough_med_amt = 3
+head_med_amt = 3
+tummy_med_amt = 3
 
 inventory = { 'cough_med':cough_med_amt, 'head_med':head_med_amt, 'tummy_med':tummy_med_amt }
 
@@ -15,8 +15,11 @@ def Pharmacy(inventory):
 
 def InvReq(inventory):
     req =[]
-    for i in range(inventory):
+    for i in inventory:
         if inventory[i] <= 5:
             req.append(10 - inventory[i])
 
-Pharmacy(inventory)
+    for i in range(req):
+        print(f'Request {inventory[i]}')
+
+InvReq(inventory)
