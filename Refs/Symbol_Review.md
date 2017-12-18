@@ -11,7 +11,7 @@
 | `def` | Define a function. | `def X(): pass` |
 | `del` | Delete from dictionary. | `del X[Y]` |
 | `elif` | Else if condition. | `if: X; elif: Y;; else: J` |
-| `else` | Else condition. | `if: X; elfi: Y; else: J` |
+| `else` | Else condition. | `if: X; elif: Y; else: J` |
 | `except` | If an exception happens, do this. | `except ValueError, e: print(e)` |
 | `exec` | Run a string as Python. | `exec 'print("hello")'` |
 | `finally` | Exceptions or not, finally do this no matter what. | `finally: pass` |
@@ -55,7 +55,7 @@
 | - | - |
 | `\\` | Backslash |
 | `\'` | Single-quote |
-| `\"` | Double-quote | 
+| `\"` | Double-quote |
 | `\a` | Bell |
 | `\b` | Backspace |
 | `\f` | Formfeed |
