@@ -19,7 +19,7 @@ def InvReq(inventory):
         if inventory[i] <= 5:
             req.append(10 - inventory[i])
 
-    for i in range(req):
-        print(f'Request {inventory[i]}')
+    for i in req:
+        print(f'Request {i}')
 
 InvReq(inventory)
