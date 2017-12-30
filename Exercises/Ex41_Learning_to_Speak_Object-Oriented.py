@@ -42,7 +42,7 @@ def convert(snippet, phrase):
             random.sample(WORDS, param_count)
         ))
 
-    for sentence in sinppet, phrase:
+    for sentence in snippet, phrase:
         result = sentence[:]
 
         # fake class names
@@ -65,7 +65,7 @@ def convert(snippet, phrase):
 try:
     while True:
         snippets = list(PHRASES.keys())
-        random.shuffle(snippetss)
+        random.shuffle(snippets)
 
         for snippet in snippets:
             phrases = PHRASES[snippet]
